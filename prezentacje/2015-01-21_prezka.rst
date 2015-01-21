@@ -1,0 +1,326 @@
+:title: Code Carrots Warszawa - warsztaty
+:data-transition-duration: 500
+:data-perspective: 0
+:css: 2015-01-21_prezka.css
+
+Prezentacja do warsztatów Code Carrots Warszawa na spotkanie 2015-01-21.
+
+Materiały multimedialne są umieszczone w katalogu ``*_mmedia``.
+
+----
+
+Witamy
+======
+
+na warsztatach **Code Carrots**!
+--------------------------------
+
+.. class:: para-footnote
+
+    *21. stycznia 2015 (środa)*
+
+.. class:: footnote small
+
+    (made with `hovercraft`_)
+
+----
+
+Gdzie jesteśmy?
+===============
+
+Co będziemy robić?
+==================
+
+* ClockWork - biuro co-workingowe
+
+* co tydzień
+
+* grupa (!)
+
+* cykle
+
+.. note::
+
+    Nie nauczymy pisać projektów "za gruby hajs" :P
+
+----
+
+Poznajmy się!
+=============
+
+.. note::
+
+    TIP: Jeśli grupa jest duża tzn. więcej niż np 20-30 osób to tylko prezentacja
+    mentorów. Networking na koniec.
+
+----
+
+`Code of Conduct`_
+==================
+
+(by `The Python Software Foundation`_)
+--------------------------------------
+
+* otwartość (na współpracę i nie tylko)
+
+* taktowność, uprzejmość
+
+* szacunek
+
+----
+
+Nasze zasady!
+=============
+
+----
+
+*"Nikt nie spodziewa się hiszpańskiej inkwizycji!"*
+===================================================
+
+* zaskoczenie
+
+* strach
+
+* bezwzględna skuteczność
+
+----
+
+Wasze zasady?
+=============
+
+. . .
+-----
+
+Po co??
+~~~~~~~
+
+----
+
+Cele?
+=====
+
+----
+
+Korzyści!
+=========
+
+    *"Umiejętność programowania w  niedalekiej przyszłości może być tak samo*
+    *istotna jak umiejętność czytania, pisania, czy znajomość języka angielskiego.*
+    *Od niej może zależeć otrzymanie ciekawej i dobrze płatnej pracy."*
+
+        (Kamila Stępniowska, COO **Geek Girls Carrots**)
+
+----
+
+Korzyści!
+=========
+
+.. class:: table-hints
+
++------------------------------------------+--------+---------------------------+------------------------------+
+| rozwój umiejętności logicznego myślenia  |  programowanie jako ciekawe hobby  |  wzrost szans na rynku pracy |
++------------------------------------------+--------+---------------------------+------------------------------+
+| wsparcie projektów programistycznych w internecie | bardziej krytyczne korzystanie z gotowego oprogramowania |
++---------------------------------------------------+----------------------------------------------------------+
+| sprawniejsze korzystanie z komputera / innych urządzeń                                                       |
++--------------------------------------------------------------------------------------------------------------+
+| .. class:: footnote                                                                                          |
+|                                                                                                              |
+|    *Badanie Millward Brown Polska (10-12.05.2013), raport "Nauka programowania w szkołach", M. Filiciak,     |
+|    K. Sijko, A. Tarkowski, Centrum Cyfrowe - Projekt: Polska*                                                |
++--------------------------------------------------------------------------------------------------------------+
+
+----
+
+Narzędzia
+=========
+
+* python 3.x (+IPython)
+
+* `edytor`_ do pisania kodu
+
+* "coś do uruchamiania kodu" :)
+
+.. note::
+
+    `edytor`_ uruchamiający kod?
+
+    gedit, IDLE, NINJA, Notepad++, pluma, Sublime Text, vim, ...
+
+    Potrzebne cechy:
+
+    * podświetlanie składni
+
+    * numerowanie wierszy
+
+    * oznaczanie pasujących nawiasów
+
+    * (opcjonalnie) wskazywanie błędów składni
+
+  **C-C-C-Combo Breaker! (ważne rozróżnienie: konsola - edytor/plik - tryb interaktywny)**
+
+----
+
+Narzędzia (c.d.)
+================
+
+* wyszukiwarki i serwisy tematyczne
+
+* inne oprogramowanie / sprzęt
+
+* Blockly, Scratch, Turtle, ...
+
+----
+
+Dokąd zmierzamy?
+================
+
+Po wiedzę i umiejętności!
+-------------------------
+
+----
+
+  * myślenie logiczne, analityczne
+
+  * rozumienie schematów (a w efekcie także kodu)
+
+  * zapoznanie z ogólnymi regułami dot. programowania (przy użyciu języka Python)
+
+  * "prawie jak studia" :)
+
+.. note::
+
+    Cele na pierwszy etap:
+
+    * wyświetlanie / wizualizacja
+
+    * dane i zmienne
+
+    * wprowadzenie do typów danych
+
+    * podstawowe elementy składni języka Python
+
+    * instrukcje warunkowe
+
+    * wprowadzanie danych
+
+    * pętle
+
+    Po pierwszym miesiącu uczestnik powinien potrafić napisać/zrozumieć prosty skrypt z inputem i wypisywaniem na ekran. 
+
+----
+
+A dokładniej...?
+================
+
+    *"Proszę państwa, oto miś."*
+
+.. note::
+
+    RPS / RPSLS
+
+----
+
+Let's code!
+===========
+
+----
+
+Hola, kursanty! Hola!
+=====================
+
+HOWTO:
+------
+
+* upraszczanie języka opisu |rwarr|
+
+* jednostkowe operacje |rwarr|
+
+* kod |rwarr| ???
+
+.. note::
+
+    Aby cokolwiek zrobić należy... wiedzieć jak to zrobić.
+
+    Czasami wszystko jest podane, czasami trzeba to odszyfrować z zachowania się
+    jakiegoś przykładu.
+
+    Nie ma "ścian" są tylko niedokładne opisy.
+
+----
+
+Blockly czyli puzzle (czyli klocki)
+===================================
+
+* instrukcja warunkowa
+
+* pętla
+
+    **(=elementy tzw. programowania strukturalnego)**
+
+.. note::
+
+    * dlaczego tak? odp: dobre zaznajomienie się z tymi elementami pozwoli
+      na płynne przejście do kodu oraz uniknięcie błędów
+
+    * pokazanie serwisu
+
+      * na stronie głównej jest przycisk do resetowania
+
+      * cz. Maze (1..2) - używanie palety klocków, łączenie
+        https://blockly-games.appspot.com/maze?lang=en&level=1
+
+      * cz. Maze (4) - jeśli mamy ograniczenia ilościowe trzeba pomyśleć...
+        https://blockly-games.appspot.com/maze?lang=en&level=4
+
+    * omówienie sampli z prostymi instrukcjami warunkowymi
+
+      * cz. Maze (6..8) - prosty warunek ruchu
+        https://blockly-games.appspot.com/maze?lang=en&level=6
+
+      * omówienie mechaniki części Bird
+
+      * cz. Bird (2..4) - warunki ruchu od chwilowego stanu
+        https://blockly-games.appspot.com/bird?lang=en&level=2
+
+    * omówienie sampli z bardziej złożonymi instrukcjami warunkowymi
+
+      * cz. Maze (9..10) - złożony warunek ruchu, układ warunków w testach
+        https://blockly-games.appspot.com/maze?lang=en&level=9
+
+      * cz. Bird (5..7) - złożony warunek ruchu ze zmiennymi
+        https://blockly-games.appspot.com/maze?lang=en&level=5
+
+      * cz. Bird (8..10) - złożony warunek ruchu z kilkoma zmiennymi
+        https://blockly-games.appspot.com/maze?lang=en&level=5
+
+    * omówienie sampli z prostymi pętlami
+
+      * przypomnienie o pętli w cz. Maze oraz niejawnej pętli w Bird
+
+      * cz. Pond (2..3) - prosta pętla ze stałym warunkiem
+        https://blockly-games.appspot.com/pond-basic?lang=en&level=2
+
+      * cz. Pond (5..6) - prosta pętla ze zmiennym warunkiem, dwie pętle
+
+    * ćwiczenia w grupach / grupkach
+
+----
+
+Pytania i networking
+====================
+
+.. note::
+
+    * opcjonalne zapoznanie się
+
+    * luźne talki
+
+.. _`hovercraft`: https://github.com/regebro/hovercraft/
+.. _`edytor`: https://wiki.python.org/moin/PythonEditors
+.. _`ClockWork`: http://www.clock-work.pl/
+.. _`Code of Conduct`: https://www.python.org/psf/codeofconduct/
+.. _`The Python Software Foundation`: https://www.python.org/psf/
+
+.. |rwarr| unicode:: U+021E8 .. RIGHTWARDS WHITE ARROW
+
