@@ -16,7 +16,7 @@ C. ???
 
 
 Kod początkowy:
-```
+```python
 print("Witaj w grze")
 computer_choice = 'stone'
 

@@ -2,6 +2,7 @@ Scenariusz mentora
 ==================
 
 - Rozliczenie pracy domowej
+- Przypomnienie co było na ostatnich zajęciach
 - Zajęcia
 - Zadanie pracy domowej
 - Sprawy organizacyjne

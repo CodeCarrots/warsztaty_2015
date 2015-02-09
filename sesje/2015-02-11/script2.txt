@@ -4,14 +4,14 @@ Opis:
 Wykorzystując kod z zadania 1 zmodyfikuj kod by komputer losował swój wybór wykorzystując moduł `random`.
 
 Pomoże wam dokumentacja modułu random w internecie https://docs.python.org/3.4/library/random.html lub w interaktywnej konsoli: 
-```
+```python
 import random
 help(random)
 ```
 
 Podpowiedź:
 Wykorzystamy w tym zadaniu tzw `krotki` (ang. tuple) które służą do przechowywania sekwencji danych np.:
-```
+```python
 my_numbers = (1, 20, 3, 10)
 my_friends = ('John', 'Alice', 'Kate', 'Lucas')
 my_pets = ('skipper', 'Mr. Parrot', 'kitty', 'blacky')

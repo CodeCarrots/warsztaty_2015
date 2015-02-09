@@ -5,7 +5,7 @@ Nasz gra strasznie śmieci w terminalu, ale możemy to zmienić. Za każdym raze
 Możemy wykorzystać do tego moduł `os` i jego funkcję `system` by wywołać polecenie systemowe `cls` (dla linuxa i macosx `clear`).
 
 Przykład:
-```
+```python
 import os
 
 os.system('cls')
