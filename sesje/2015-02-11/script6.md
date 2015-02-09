@@ -18,4 +18,4 @@ Pod koniec gry (po wszystkich rozgrywkach) wyświetl ilość wygranych komputera
   - https://docs.python.org/3.4/tutorial/introduction.html#lists
   - https://docs.python.org/3.4/tutorial/datastructures.html#more-on-lists
 
-Wyświetl najdłuższe sekwencje wygranych (jak w B.) i przegranych.
+  Wyświetl najdłuższe sekwencje wygranych (jak w B.) i przegranych.
