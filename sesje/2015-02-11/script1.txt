@@ -20,7 +20,7 @@ Kod początkowy:
 print("Witaj w grze")
 computer_choice = 'stone'
 
-# Wypisz opis gry, możliwosci, autor itp.
+# Wypisz opis gry, możliwości, autor itp.
 
 # Pobierz wybór od użytkownika
 

@@ -1,10 +1,10 @@
 Skrypt 8 - Dodatkowy
 
-Kółko i kryżyk
+Kółko i krzyżyk
 
 Opis:
 Zaprogramuj grę kółko i krzyżyk dla dwóch graczy. 
-Zacznij od najważniejszej części: rozgrywki, póżniej rozbuduj ją o menu, imiona graczy itp.
+Zacznij od najważniejszej części: rozgrywki, później rozbuduj ją o menu, imiona graczy itp.
 
 Przykładowa rozgrywka mogła by wyglądać tak:
 ```
