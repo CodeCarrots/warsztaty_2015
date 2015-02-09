@@ -26,6 +26,8 @@ O krotkach i innych mechanizmach przechowywania danych opowiemy więcej w przysz
 * Spraw by wybór komputera był trochę `głupszy` i zamiast wybierać z pośród 3 możliwości z równym prawdopodobieństwem wybierał jedną opcję z z prawdopodobieństwem 50% a pozostałe dwie z 25%. 
 
 * Spraw by wybór komputera był `głupszy` jak w A. ale tym razem element który będzie losowany z 50% prawdopodobieństwem również był losowy, np:
-W pierwszym uruchomieniu komputer może wybrać: kamień 50%, papier 25%, nożyczki 25%.
-W kolejnym uruchomieniu komputer może wybrać: kamień 25%, papier 50%, nożyczki 25%.
+
+  - W pierwszym uruchomieniu komputer może wybrać: kamień 50%, papier 25%, nożyczki 25%.
+  - W kolejnym uruchomieniu komputer może wybrać: kamień 25%, papier 50%, nożyczki 25%.
+
 **Uwaga:** powyższe przykłady nie mają ustalonej kolejności, wybory komputera powinny być losowe!
