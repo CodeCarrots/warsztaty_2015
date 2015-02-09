@@ -1,6 +1,9 @@
-Skrypt 5
+# Zadanie 5
 
-Opis:
+Czyszczenie konsoli
+
+## Opis:
+
 Nasz gra strasznie śmieci w terminalu, ale możemy to zmienić. Za każdym razem gdy będziemy rozpoczynać nową rozgrywkę chcemy mieć pusty ekran z powitaniem.
 Możemy wykorzystać do tego moduł `os` i jego funkcję `system` by wywołać polecenie systemowe `cls` (dla linuxa i macosx `clear`).
 
@@ -12,8 +15,9 @@ os.system('cls')
 print("Witaj w grze!")
 ```
 
-Explore:
-A. Dopracuj grę by jej przebieg miał następujące `ekrany`:
+## Explore:
+
+* Dopracuj grę by jej przebieg miał następujące `ekrany`:
 
 ```
 Witaj w grze:
@@ -39,4 +43,4 @@ N - Nożyczki
 Czy chcesz grać dalej? tak/nie:
 ```
 
-Uwzględnij wszystkie funkcjonalności jakie udało ci się zbudować wcześniej. Każdy z tych ekranów powinien pojawiać się na czystym ekranie. 
+Uwzględnij wszystkie funkcjonalności jakie udało ci się zbudować wcześniej. Każdy z tych ekranów powinien pojawiać się na czystej konsoli. 
