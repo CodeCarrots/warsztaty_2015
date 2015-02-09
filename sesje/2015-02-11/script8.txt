@@ -1,9 +1,0 @@
-Skrypt 8
-
-Wybór trybu gry - normalna, lizard & spock
-
-Opis:
-
-
-Explore:
-
