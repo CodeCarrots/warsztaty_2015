@@ -13,13 +13,7 @@ Na początek nasza gra ma zadanie:
 4. Wyświetlić wynik rozgrywki
 
 
-## Explore:
-
-* Wyświetlić opis gry w ładnej ramce
-* Wyświetlić opis gry na żądanie (np. gdy użytkownik wpiszę jako swój wybór `help`)
-
-
-Kod początkowy:
+## Kod początkowy:
 ```python
 print("Witaj w grze")
 computer_choice = 'stone'
@@ -33,3 +27,11 @@ computer_choice = 'stone'
 # Wypisz wynik rozgrywki
 
 ```
+
+
+## Explore:
+
+* Wyświetlić opis gry w ładnej ramce
+* Wyświetlić opis gry na żądanie (np. gdy użytkownik wpiszę jako swój wybór `help`)
+
+
