@@ -16,7 +16,7 @@ Na początek nasza gra ma zadanie:
 ## Kod początkowy:
 ```python
 print("Witaj w grze")
-computer_choice = 'stone'
+computer_choice = 'kamien'
 
 # Wypisz opis gry, możliwości, autor itp.
 

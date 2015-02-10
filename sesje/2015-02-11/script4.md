@@ -9,14 +9,14 @@ Musimy dać użytkownikowi wybór czy po danej rozgrywce chce zakończyć grę c
 
 Po każdej rozgrywce użytkownik powinien zobaczyć pytanie:
 ```
-Do you want to play again? yes/no: 
+Czy chcesz grać dalej? tak/nie: 
 ```
 
 
 ## Explore:
 
-* `głupi` komputer potrafi też być uparty. Spraw by czasami na odpowiedź `no` na ostatnie pytanie wypisywał:
+* `głupi` komputer potrafi też być uparty. Spraw by czasami na odpowiedź `nie` na ostatnie pytanie wypisywał:
 ```
-No!? I won't let you go of that easily! One more time!
+Nie!? Tak łatwo mi się nie wymkniesz! Gramy dalej!
 ```
 I zaczynał grę od początku. (ale bez wyboru poziomu umiejętności komputera!)
