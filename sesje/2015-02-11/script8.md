@@ -14,21 +14,21 @@ A  . | . | .
 B  . | . | .
 C  . | . | .
 
-Gracz 1, podaj pozycję: A1
+Gracz X, podaj pozycję: A1
 
    1   2   3
 A  X | . | .
 B  . | . | .
 C  . | . | .
 
-Gracz 2, podaj pozycję: B2
+Gracz O, podaj pozycję: B2
 
    1   2   3
 A  X | . | .
 B  . | O | .
 C  . | . | .
 
-Gracz 1, podaj pozycję: B1
+Gracz X, podaj pozycję: B1
 
 ...
 
