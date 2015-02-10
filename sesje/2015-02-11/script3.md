@@ -10,16 +10,16 @@ Aktualnie nasza gra przyjmuje wszystkie wartości jakie wpiszę użytkownik i dz
 
 * Zamiast przyjmować wartości bezpośrednio wyświetl `menu` z możliwościami wyboru, np:
 ```
-A. Stone
-B. Rock
-C. Scissors
+A. Kamień
+B. Papier
+C. Nożyczki
 D. Help
-Q. Quit
+Q. Wyjście
 ```
 
 * Dodaj przed rozpoczęciem prawdziwej gry wybór poziomu trudności komputera, np:
 ```
-A. Smart computer
-B. Stupid computer
+A. Sprytny computer
+B. Mniej sprytny computer
 ```
 który będzie określał czy komputer ma być losowy (33%/33%/33%) czy `głupi` (50%/25%/25%)
