@@ -6,7 +6,7 @@ Losowy komputer
 
 Wykorzystując kod z zadania 1 zmodyfikuj kod by komputer losował swój wybór wykorzystując moduł `random`.
 
-Pomoże wam dokumentacja modułu random w internecie https://docs.python.org/3.4/library/random.html lub w interaktywnej konsoli: 
+Pomoże wam dokumentacja modułu random w internecie https://docs.python.org/3/library/random.html lub w interaktywnej konsoli: 
 ```python
 import random
 help(random)
