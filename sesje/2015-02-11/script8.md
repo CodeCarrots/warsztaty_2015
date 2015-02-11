@@ -1,4 +1,4 @@
-# Skrypt 8 - Dodatkowy
+# Zadanie 8 - Dodatkowy
 
 Kółko i krzyżyk
 
