@@ -1,4 +1,4 @@
-# Zadanie 8 - Dodatkowy
+# Zadanie 8 - Dodatkowe
 
 Kółko i krzyżyk
 
