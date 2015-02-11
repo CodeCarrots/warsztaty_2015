@@ -17,6 +17,8 @@ player_choice = "c"
 while player_choice == "c":
     print("Game on!")
     # ...
+    # Zwóć uwagę że wpisanie dowolnej innej wartosci niż `c` (nie tylko `q`)
+    # skutkuje zakończeniem programu.
     print("Do you want to play again? c - continue, q - quit")
     player_choice = input()
 ```
