@@ -7,6 +7,8 @@ Czyszczenie konsoli
 Nasz gra strasznie śmieci w terminalu, ale możemy to zmienić. Za każdym razem gdy będziemy rozpoczynać nową rozgrywkę chcemy mieć pusty ekran z powitaniem.
 Możemy wykorzystać do tego moduł `os` i jego funkcję `system` by wywołać polecenie systemowe `cls` (dla linuxa i macosx `clear`).
 
+**UWAGA**: Poniższy kod nie zadziała gdy będzie uruchamiany z poziomu edytora IDLE (klawisz F5 lub menu Run -> Run Module). Aby poniższy kod poprawinie wyczyścił ekran, wasz program powinien być uruchomiony z poziomu konsoli systemowej. W windowsie aby uruchomić konsolę systemowa należy uruchomić polecenie `cmd.exe` lub zlokalizować w menu `Comand Prompt`/`Wiersz poleceń`, następnie wewnątrz konsoli systemowej wykonać polecenie `py C:/scieżka/do/waszego/pliku/gry.py`, zamieniająć podaną tu ścieżką na ścieżkę do waszego pliku z grą.
+
 Przykład:
 ```python
 import os
