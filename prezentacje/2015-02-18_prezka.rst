@@ -1,0 +1,188 @@
+:title: Code Carrots Warszawa - warsztaty
+:data-transition-duration: 500
+:data-perspective: 0
+:css: 2015-02-18_prezka.css
+
+Prezentacja do warsztatów Code Carrots Warszawa na spotkanie 2015-02-18.
+
+Materiały multimedialne są umieszczone w katalogu ``*_mmedia``.
+
+----
+
+Podstawowe typy danych
+======================
+
+int, float, bool, str
+---------------------
+
+.. class:: para-footnote
+
+    *18. lutego 2015 (środa)*
+
+.. class:: footnote small
+
+    (made with `hovercraft`_)
+
+----
+
+Wszystko jest obiektem...
+=========================
+
+...pewnego typu
+---------------
+
+----
+
+int
+===
+
+(ang. integer)
+--------------
+
+* liczby całkowite
+* wszystkie(*)
+
+.. class:: para-footnote
+
+    (*) które może "pomieścić" interpreter
+
+.. note::
+
+    * ``x = 1``
+    * ``x = 12423423424242424545354``
+
+----
+
+float
+=====
+
+(ang. floating point)
+---------------------
+
+* liczby zmiennoprzecinkowe
+* nie wszystkie (!)... ale jest na to pewien sposób
+
+.. note::
+
+    * ``x = 1.0``
+    * ``x = 1.000001``
+    * ``N = 6e23``
+    * ``x = 1751 / 10``
+    * ``1751 * 0.1``, ``117 * 0.1``
+    * można nie używać liczb zmiennoprzecinkowych
+    * można użyć obiektów typu ``Decimal`` do niektórych operacji
+    * można pogodzić się z brakiem niektórych wartości (=zaokrąglenia)
+    * ``float('-inf') < 0``
+
+----
+
+bool
+====
+
+(ang. boolean)
+--------------
+
+* wartość logiczna (logika dwuwartościowa)
+
+.. note::
+
+    * ``x = True``
+    * ``y = not x``
+    * ``z = 1``
+    * ``w = z >= 1``
+
+----
+
+str
+===
+
+(ang. string)
+-------------
+
+* ciąg znaków
+
+.. note::
+
+    * ``s = 'abc?def'``
+    * ``s = "abc?def"``
+    * ``s = '''abc\ndef'''``
+    * ``s = """abc\ndef"""``
+    * wybieranie znaku: ``s[indeks] # indeks: 0...len(s)-1``
+    * zastępowanie znaku/fragmentu: nie można...
+    * ...ale można podzielić, wstawić i połączyć w **nowy** ciąg: ``s[:pozycja] + znak + s[pozycja + 1:]``
+    * wybrać co drugi: ``s[0::2]`` albo ``s[1::2]`` albo ``s[-1::-2]`` albo ``s[-2::-2]``
+    * odwrócić kolejność: ``s[::-1]`` albo ``s[-1::-1]``
+
+----
+
+Funkcja ``type``
+================
+
+``https://docs.python.org/3/library/functions.html#type``
+---------------------------------------------------------
+
+.. note::
+
+    * w podstawowym użyciu: zwraca typ obiektu... czyli obiekt ;)
+    * tak dokładnie to zwraca coś takiego jak "obiekt typu"
+
+----
+
+Interakcje między obiektami
+===========================
+
+...czyli operacje
+-----------------
+
+* dodawanie (odejmowanie, sumowanie, ...)
+* mnożenie (dzielenie, potęgowanie, pierwiastkowanie, ...)
+* bitowe
+
+.. note::
+
+    * nie każdą operację można przeprowadzić
+    * posługujemy się obiektami i tylko niektóre ich typy mogą wchodzić ze sobą w interakcję (a kolejność może mieć znaczenie)
+    * jeśli nie jesteśmy pewni na czym operujemy - efekt może nie być zadowalający/poprawny z **naszego** punktu widzenia
+    * Python jest na szczęście jednoznaczny w ramach tego samego interpretera (co nie znaczy, że sam naprawia błędy programistów!)
+    * przykład: ``x = 1751 * 0.1 ; x - 175.1 == 0``
+
+----
+
+Zmiana typu
+===========
+
+* jawna
+* niejawna
+
+Na potrzeby:
+
+* przekazania wartości
+* wykonania operacji arytmetycznych i in.
+* odzwierciedlenia wartości w innym typie
+* reprezentacji wartości
+
+.. note::
+
+    * jawne (przy użyciu funkcji wbudowanych): ``int``, ``float``, ``bool``, ``str``, ...
+    * niejawne (np. w momencie użycia ``print``, użycia skróconej formuły wyrażenia logicznego itp.)
+
+----
+
+Let's code!
+===========
+
+``github.io/CodeCarrots/Python_2015/``
+--------------------------------------
+
+----
+
+Praca domowa
+============
+
+----
+
+Pytania?
+========
+
+.. _`hovercraft`: https://github.com/regebro/hovercraft/
+
