@@ -49,7 +49,8 @@ int
 .. note::
 
     * ``x = 1``
-    * ``x = 12423423424242424545354``
+    * ``x = 1242342342424242454535409230912308123098123809213``
+    * nie każda ogromna wartość da się prosto przetworzyć
 
 ----
 
@@ -66,13 +67,13 @@ float
 
     * ``x = 1.0``
     * ``x = 1.000001``
-    * ``N = 6e23``
+    * ``N = 6.02214129e23``
     * ``x = 1751 / 10``
+    * ``float('-inf') < 0``
     * ``1751 * 0.1``, ``117 * 0.1``
-    * można nie używać liczb zmiennoprzecinkowych
+    * można nie używać liczb zmiennoprzecinkowych :)
     * można użyć obiektów typu ``Decimal`` do niektórych operacji
     * można pogodzić się z brakiem niektórych wartości (=zaokrąglenia)
-    * ``float('-inf') < 0``
 
 ----
 
@@ -87,6 +88,7 @@ bool
 .. note::
 
     * ``x = True``
+    * ``x = False``
     * ``y = not x``
     * ``z = 1``
     * ``w = z >= 1``
@@ -118,13 +120,14 @@ str
 Funkcja ``type``
 ================
 
-``https://docs.python.org/3/library/functions.html#type``
+``docs.python.org/3/library/functions.html#type``
 ---------------------------------------------------------
 
 .. note::
 
     * w podstawowym użyciu: zwraca typ obiektu... czyli obiekt ;)
     * tak dokładnie to zwraca coś takiego jak "obiekt typu"
+    * przykład: ``s = "test" ; type(s)``
 
 ----
 
@@ -143,7 +146,7 @@ Interakcje między obiektami
     * nie każdą operację można przeprowadzić
     * posługujemy się obiektami i tylko niektóre ich typy mogą wchodzić ze sobą w interakcję (a kolejność może mieć znaczenie)
     * jeśli nie jesteśmy pewni na czym operujemy - efekt może nie być zadowalający/poprawny z **naszego** punktu widzenia
-    * Python jest na szczęście jednoznaczny w ramach tego samego interpretera (co nie znaczy, że sam naprawia błędy programistów!)
+    * Python jest (na szczęście) jednoznaczny w ramach tego samego interpretera (co nie znaczy, że sam naprawia błędy programistów!)
     * przykład: ``x = 1751 * 0.1 ; x - 175.1 == 0``
 
 ----
@@ -165,14 +168,15 @@ Na potrzeby:
 
     * jawne (przy użyciu funkcji wbudowanych): ``int``, ``float``, ``bool``, ``str``, ...
     * niejawne (np. w momencie użycia ``print``, użycia skróconej formuły wyrażenia logicznego itp.)
+    * przykład: ``if len(s) > 0:`` |rwarr| ``if len(s):`` |rwarr| ``if s:``
 
 ----
 
 Let's code!
 ===========
 
-``github.io/CodeCarrots/Python_2015/``
---------------------------------------
+``codecarrots.github.io/python2015``
+------------------------------------
 
 ----
 
@@ -186,3 +190,4 @@ Pytania?
 
 .. _`hovercraft`: https://github.com/regebro/hovercraft/
 
+.. |rwarr| unicode:: U+021E8 .. RIGHTWARDS WHITE ARROW
