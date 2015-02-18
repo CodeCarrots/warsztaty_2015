@@ -11,7 +11,7 @@ Challenge-app -> A substitute of...
 ### wersja offline:
 Mając trzy zmienne (a, b i c) przechowujące losowe wartości liczbowe (X, Y oraz Z - nie tylko całkowite!) połącz je w ciąg postaci "aXbYcZaZbYcX". Przy wartościach typu zmiennoprzecinkowego obetnij część ułamkową.
 
-Przykład: a=1.1, b=2, c=3.4 -> "a1b2c3"
+Przykład: `a=1.1, b=2, c=3.4 -> "a1b2c3a3b2c1"`
 
 
 ## Explore

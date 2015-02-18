@@ -13,7 +13,7 @@ Mając dwa ciągi przepleć je zaczynając od pierwszego znaku pierwszego ciągu
 Jeśli zabraknie kolejnego znaku do pary (parę tworzą znaki na tych samych
 indeksach z obu ciągów) w którymkolwiek z ciągów - zakończ operację.
 
-Przykład: `ciag_a="abcd", ciag_b="EFG" -> "aDbEcF"`
+Przykład: `ciag_a="abcd", ciag_b="EFG" -> "aEbFcG"`
 
 
 ## Explore
