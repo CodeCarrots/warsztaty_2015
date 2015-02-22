@@ -1,0 +1,234 @@
+:title: Code Carrots Warszawa - 25.02.2015
+:data-transition-duration: 500
+:data-perspective: 200
+:css: 2015-02-18_prezka.css
+
+
+Plan gry
+========
+
+Podstawowe typy danych
+----------------------
+
+Typy niezmienne (Immutables)
+
+* Liczby (int, float)
+* Bool True i False
+* Napisy (str)
+* Krotki (tuple)
+
+Typy zmienne (mutables)
+
+* Listy (list)
+* ... (na kolejnych zajęciach) ...
+
+
+-----
+
+Plan gry c.d.
+=============
+
+Co możemy robić z różnymi typami danych?
+----------------------------------------
+
+* Jak rozpoznać co jest jakiego typu?
+* Konwersja typów.
+* Sekwencje
+* Pętla `for x in y`
+
+
+-----
+
+Liczby (int, float)
+===================
+
+.. code:: python
+
+    a = 10
+    b = 5
+    a * b  # 50
+    b / a  # 0.5
+    a + b  # 15
+    b - a  # -5
+    a ** b # 100000
+
+
+-----
+
+Bool (bool)
+===========
+
+.. code:: python
+
+    a = True
+    b = False
+    a and b  # False
+    a or b   # True
+    a or (b and a)  # ???
+
+
+-----
+
+Napisy (str)
+============
+
+.. code:: python
+
+    a = 'Ala ma kota'
+    b = 'kot ma Alę'
+    a + ', a ' + b  # Ala ma kota, a kot ma Alę
+    a[1]     # l
+    a[2:5]   # a m
+    a[2:9:3] # aao
+    a[::-1]  # atok am alA
+
+-----
+
+Krotki (tuple)
+==============
+
+.. code:: python
+
+    a = (1, 'a', 40, 'miauuu...')
+    b = (2, 'b', 80, 'miauuu, miauuu...')
+    a + b  # (1, 'a', 40, 'miauuu...', 2, 'b', 80, 'miauuu, miauuu...')
+    a[1]    # a
+    b[1:3]  # ('b', 80)
+
+    # ... Jak w napisach ...
+
+-----
+
+
+Typy niezmienne
+===============
+
+.. code:: python
+
+    a = 'Ania'
+    # na Anka
+    #      ^  - chcemy zmienić ten znak
+    a[2]  # i
+    a[2] = 'k'
+    Traceback (most recent call last):
+      File "<stdin>", line 1, in <module>
+    TypeError: 'str' object does not support item assignment
+
+    a = (1, 7, 3)
+    a[1] = 2
+    Traceback (most recent call last):
+      File "<stdin>", line 1, in <module>
+    TypeError: 'tuple' object does not support item assignment
+
+
+-----
+
+Listy (list)
+============
+
+.. code:: python
+
+    a = [1, 2, 3, 'miauuu...']
+    a[3] = 4
+    print(a)  # ???
+
+    a = ['Ala', 12, (1, 2, 3), 'Osaka', 'To jest całe zdanie.', ['a', 'b', 'c']]
+    #   ^^^ tuple też mogą przechowywać wartosći dowolnego typu
+
+
+-----
+
+Jak rozpoznać co jest jakiego typu?
+===================================
+
+.. code:: python
+
+    a = 'Ala'
+    b = (1, 2, 'a')
+    c = True
+    d = 123
+    e = [1, 2, 'miauu...']
+    type(a)  # <class 'str'>
+    type(b)  # <class 'tuple'>
+    type(c)  # <class 'bool'>
+    type(d)  # <class 'int'>
+    type(e)  # <class 'list'>
+
+
+-----
+
+Konwersja typów. Czyli jak jabłko zmienić w gruszkę.
+====================================================
+
+.. code:: python
+
+    a = 'Ala'
+    b = list(a)
+    c = tuple(b)
+    d = bool(c)
+    e = int(d)
+
+    list(1)
+    list('a')
+
+    tuple(1)
+    tuple(True)
+
+    bool(1)
+    bool(0)
+    bool(-1)
+
+
+-----
+
+Konwersja typów. Czyli jak jabłko zmienić w gruszkę. c.d.
+=========================================================
+
+.. code:: python
+
+    int('10')
+    int('A')
+    int('A', 16)
+    int('Z', 36)
+    int('Z', 37)
+    int('10101', 2)
+    int('10202', 3)
+
+    str([1, 2, 3])
+    str(('a', 'b', 'c'))
+    str(123)
+    str(123.456789)
+
+-----
+
+Sekwencje (zachowują kolejność elementów)
+=========================================
+
+.. code:: python
+
+    a = 'Ala'
+    b = ('A', 'l', 'a')
+    c = ['A', 'l', 'a']
+
+
+-----
+
+Pętla `for x in y`
+==================
+
+.. code:: python
+
+    my_numbers = [1, 2, 3, 4]
+
+    for number in my_numbers:
+        print('I like number: ', number)
+
+    name = 'Grześ'
+
+    for letter in name:
+        print(letter)
+
+    my_name_letters = ('G', 'r', 'z', 'e', 'ś')
+
+    for letter in my_name_letters:
+        print(letter)
