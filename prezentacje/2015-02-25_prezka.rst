@@ -232,3 +232,19 @@ Pętla `for x in y`
 
     for letter in my_name_letters:
         print(letter)
+
+-----
+
+Smaczki
+=======
+
+.. code:: python
+
+    # operator `in`
+    if 'ala' in 'ala ma kota':
+        print('Tak')
+
+    1 in [1, 2, 3]
+    'a' in 'abc'
+    'abc' in ('abc', 'cde', 'efg')
+    1 in [2,3,4]
