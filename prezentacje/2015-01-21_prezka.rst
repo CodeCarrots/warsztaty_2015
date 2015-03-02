@@ -1,7 +1,7 @@
 :title: Code Carrots Warszawa - warsztaty
 :data-transition-duration: 500
 :data-perspective: 0
-:css: 2015-01-21_prezka.css
+:css: common_static/prezka_common.css
 
 Prezentacja do warsztatów Code Carrots Warszawa na spotkanie 2015-01-21.
 

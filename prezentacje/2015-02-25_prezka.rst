@@ -1,7 +1,7 @@
 :title: Code Carrots Warszawa - 25.02.2015
 :data-transition-duration: 500
 :data-perspective: 200
-:css: 2015-02-18_prezka.css
+:css: common_static/prezka_common.css
 
 
 Plan gry
