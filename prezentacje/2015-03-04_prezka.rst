@@ -1,0 +1,237 @@
+:title: Code Carrots Warszawa - warsztaty
+:data-transition-duration: 500
+:data-perspective: 0
+:css: common_static/prezka_common.css
+
+Prezentacja do warsztatów Code Carrots Warszawa na spotkanie 2015-03-04.
+
+Materiały multimedialne są umieszczone w opcjonalnym katalogu ``*_mmedia``.
+
+----
+
+Funkcje i ich zastosowanie
+==========================
+
+.. class:: para-footnote
+
+    *4. marca 2015 (środa)*
+
+.. class:: footnote small
+
+    (made with `hovercraft`_)
+
+----
+
+Zasięg zmiennych
+================
+
+(ang. scope; przypomnienie)
+---------------------------
+
+.. code:: python
+
+    x = 1       # zmienna widoczna poniżej definicji
+    # (...)
+    if x > 2:
+        y = 1
+        # w tym miejscu zmienna y jest określona
+        # ALE wykonanie tego bloku zależy od if-a
+    # (...)
+    # jeśli x <= 2 to zmienna y nie zostanie wcale stworzona!
+    x = x + y   # przy x <= 2 program się wysypie
+
+.. note::
+
+    * krótkie omówienie
+
+----
+
+Zasięg zmiennych (c.d.)
+=======================
+
+.. code:: python
+
+    x = 1       # zmienna widoczna poniżej definicji
+    y = -1      # j.w. (+ w tym miejscu wiemy już, że x == 1)
+    # (w tym miejscu wiemy już, że x == 1 oraz y == -1)
+    # (...)
+    if x > 2:
+        y = 1
+    # (...)
+    # zmienna y zawsze jest dostępna - niezależnie od x
+
+.. note::
+
+    * krótkie omówienie (c.d.)
+
+----
+
+Zasięg zmiennych (c.d.)
+=======================
+
+``scope_*.py``
+--------------
+
+Naprawiamy błędy :)
+
+.. note::
+
+    * ćwiczenia związane z naprawianiem prostych błędów
+
+----
+
+Funkcje wbudowane
+=================
+
+* ``print``
+* ``input``
+* ``len``
+* ... (``int``, ``str``, ``list``, ... też!)
+
+----
+
+Funkcje wbudowane (c.d.)
+========================
+
+``mixstring_*.py``
+------------------
+
+* Czy funkcje (wbudowane lub inne) mogą nam pomóc?
+* Jak to robią?
+
+.. note::
+
+    * funkcje wbudowane:
+
+        * są dobrze udokumentowane
+        * nikt nam ich nie zmieni ot tak
+        * są szybkie (szybsze niż nasz, napisany "na piechotę", kod)
+
+    * nasz kod:
+
+        * pokazanie kilku wersji kodu (w tym m.in. kodu od naszych słuchaczy)
+        * omówienie rozwiązań
+        * pokazanie jak pomagają nam w w/w funkcje wbudowane
+
+----
+
+Funkcje są... obiektami
+=======================
+
+.. image:: 2015-03-04_prezka_mmedia/yds.png
+   :height: 400px
+
+.. class:: footnote small
+
+    (by `All The Rage Faces!`_)
+
+.. note::
+
+    * po co tworzymy własne funkcje:
+
+        * organizowanie kodu
+        * uproszczenie kodu
+        * podniesienie czytelności
+        * dokumentacja i testy
+        * ...
+        * for money!
+
+----
+
+Out of the (e-)box!
+===================
+
+Python
+------
+
+    * ok. 70 `funkcji wbudowanych`_
+    * ponad 200 `gotowych modułów`_ |rwarr| tysiące metod
+
+----
+
+Funkcje
+=======
+
+Definicja
+---------
+
+.. code:: python
+
+    def nazwa_funkcji(arg_1, arg_2, ..., arg_n_def=wartosc_def, ...):
+        # UWAGA: funkcja może nie mieć wcale kodu! tu ma go trochę:
+        jakas_funkcja(arg_n_def)
+        lokalna_zmienna = inna_funkcja(arg_1)
+        inna_zmienna = jeszcze_inna_funkcja(arg_2, lokalna_zmienna)
+        # (...)
+        # opcjonalnie, jeśli chcemy coś zwrócić
+        # (nie zawsze jest taka potrzeba czy konieczność)
+        return inna_zmienna
+
+.. note::
+
+    * omówienie tego po jak tworzymy własną funkcję
+    * zasięg widoczności funkcji - po nazwie
+    * nazwa funkcji powinna być krótka ale opisowa: ``get_value``, ``write_data``, ``evaluate_equation``
+    * to samo dotyczy argumentów:
+
+        * źle: ``arg_1``, ``arg_2``, ..., ``param``, ``something`` etc.
+        * *dobrze*: ``point_tuple``, ``input_str``, ``data_buffer`` etc.
+
+    * wszystkie argumenty (o ile są) stają się zmiennymi lokalnymi dostępnymi wewnątrz funkcji
+    * nazwy argumentów (jak i zmiennych) nie powinny się pokrywać z:
+
+        * nazwami funkcji, także wbudowanych |rwarr| lokalne nadpisanie
+        * zmiennych poza funkcją |rwarr| ewentualna niejednoznaczność w momencie użycia
+
+    * wewnątrz możemy odwoływać się do widocznych obiektów a czasami także je modyfikować
+    * zwrot powinien mieć sens (=zgodność z dokumentacją lub wymaganiami)
+
+----
+
+Funkcje
+=======
+
+Proste definicje i użycie
+-------------------------
+
+``funcs_*.py``
+--------------
+
+.. note::
+
+    * pokazanie przykładów "abstrakcyjnych"
+    * przykłady z funkcjami rzeczywistymi/działającymi
+
+----
+
+Entangling even more
+====================
+
+``entanglingevenmore_*.py``
+---------------------------
+
+----
+
+Praca domowa
+============
+
+Base:
+
+    * ``homebrew_*.py`` - mamy za dużo powielonego kodu, użyjmy funkcji!
+
+Explore:
+
+    * ``funcs_00.py`` - mamy dokumentację funkcji, napiszmy ich kod od zera!
+
+----
+
+Pytania?
+========
+
+.. _`hovercraft`: https://github.com/regebro/hovercraft/
+.. _`funkcji wbudowanych`: https://docs.python.org/3/library/functions.html
+.. _`gotowych modułów`: https://docs.python.org/3/library/index.html
+.. _`All The Rage Faces!`: http://alltheragefaces.com/face/misc-you-dont-say
+
+.. |rwarr| unicode:: U+021E8 .. RIGHTWARDS WHITE ARROW
+
