@@ -157,11 +157,12 @@ Definicja
 
 .. code:: python
 
-    def nazwa_funkcji(arg_1, arg_2, ..., arg_n_def=wartosc_def, ...):
+    #def nazwa_funkcji(argument_nr_1, argument_nr_2, ..., argument_nr_k, argument_n_ty_dom=wartosc_dom, ...):
+    def nazwa_funkcji(argument_nr_1, argument_nr_2, argument_nr_k, argument_n_ty_dom=wartosc_dom):
         # UWAGA: funkcja może nie mieć wcale kodu! tu ma go trochę:
-        jakas_funkcja(arg_n_def)
-        lokalna_zmienna = inna_funkcja(arg_1)
-        inna_zmienna = jeszcze_inna_funkcja(arg_2, lokalna_zmienna)
+        jakas_funkcja(argument_n_ty_dom)
+        lokalna_zmienna = inna_funkcja(argument_nr_1)
+        inna_zmienna = jeszcze_inna_funkcja(argument_nr_2, lokalna_zmienna)
         # (...)
         # opcjonalnie, jeśli chcemy coś zwrócić
         # (nie zawsze jest taka potrzeba czy konieczność)
@@ -174,7 +175,7 @@ Definicja
     * nazwa funkcji powinna być krótka ale opisowa: ``get_value``, ``write_data``, ``evaluate_equation``
     * to samo dotyczy argumentów:
 
-        * źle: ``arg_1``, ``arg_2``, ..., ``param``, ``something`` etc.
+        * źle: ``argument_nr_1``, ``arg_2``, ..., ``param``, ``something`` etc.
         * *dobrze*: ``point_tuple``, ``input_str``, ``data_buffer`` etc.
 
     * wszystkie argumenty (o ile są) stają się zmiennymi lokalnymi dostępnymi wewnątrz funkcji
@@ -193,6 +194,23 @@ Funkcje
 
 Proste definicje i użycie
 -------------------------
+
+.. code:: python
+
+    nazwa_funkcji(parametr_nr_1, parametr_nr_2, moj_ostatni_argument)
+    nazwa_funkcji(parametr_nr_1, parametr_nr_2, moj_ostatni_argument, parametr_nr_n)
+    nazwa_funkcji(parametr_nr_1, parametr_nr_2, moj_ostatni_argument, argument_n_ty_dom=parametr_nr_n)
+
+    nazwa_funkcji('a', [1, 2, False], 'cośtam', (False, 'to ostatni?'))
+    nazwa_funkcji((0, True), 'xyz', 'inne', argument_n_ty_dom="No, ostatni...")
+
+----
+
+Funkcje
+=======
+
+Proste definicje i użycie (c.d.)
+--------------------------------
 
 ``funcs_*.py``
 --------------
