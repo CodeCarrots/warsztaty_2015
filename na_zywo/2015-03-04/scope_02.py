@@ -18,6 +18,10 @@ for date in dates_lst:
     dates_counters[1] = feb_cnt
     dates_counters[2] = mar_cnt
 
+#    dates_counters[0], dates_counters[1], dates_counters[2] = all_cnt, feb_cnt, mar_cnt
+
+#    dates_counters = [all_cnt, feb_cnt, mar_cnt]
+
 # 42
 print('Ilość dni objęta statystyką:', dates_counters[0])
 # 26
