@@ -27,8 +27,8 @@ data = (
     ('D', False),
     ('1', False),
     (1, True),
-    ('ala', True),
-    ('Ma', True),
+    ('Ala', True),
+    ('Ma', False),
     ('130', False),
 )
 
