@@ -21,11 +21,13 @@ def is_stopword(word, stopwords_set):
 separated_phrases = split_into_phrases(page_content)
 
 
+# oczyszczamy zachowując kolejność
 clean_words = []
 for phrase in separated_phrases:
     pass
 print(clean_words)
 
 
+# oczyszczamy nie zachowując kolejności
 unordered_clean_words = diff_sets(separated_phrases, ALL_STOP_WORDS)
 print(unordered_clean_words)
