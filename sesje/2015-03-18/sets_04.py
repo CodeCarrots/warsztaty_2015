@@ -11,10 +11,12 @@ valid_words = (
 
 def is_valid(value):
     """
-    Returns True of False if `value` is in either of:
-    - valid_letters
+    Returns True if `value` is in either of:
+    - valid_letters (case insensitive)
     - valid_numbers
     - valid_words
+
+    or False otherwise.
     """
     # Put your code here.
 
