@@ -14,7 +14,7 @@ def is_valid(value):
     Returns True if `value` is in either of:
     - valid_letters (case insensitive)
     - valid_numbers
-    - valid_words
+    - valid_words (case insensitive)
 
     or False otherwise.
     """
