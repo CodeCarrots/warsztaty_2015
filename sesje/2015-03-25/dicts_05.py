@@ -1,5 +1,9 @@
 # 1) Uzupełnij funkcję remove_book
 # 2) Dodaj funkcję wyszukiwania po ISBN (patrz poprzednie zadanie)
+#
+# Słownik books przechowuje pary (klucz : wartość) - "ISBN" : 3 ELEMENTOWA KROTKA ("tytuł książki", "imię głównego autora", "numer półki")
+#
+# Ten skrypt to prosta aplikacja konsolowa umożliwiająca wpisywanie komend i weryfikowanie ich efektów (komenda "help" wypisze wszystkie możliwe komendy).
 
 books = {'0262510871' : ('Structure and Interpretation of Computer Programs', 'Harold Abelson', 1),
          '0262032937' : ('Introduction to Algorithms', 'Thomas H. Cormen', 34),

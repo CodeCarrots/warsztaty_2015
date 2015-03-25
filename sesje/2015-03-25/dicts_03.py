@@ -1,7 +1,9 @@
 # Wypisz zawartość słownika w formacie:
 # "TYTUŁ" by "AUTOR" is on shelf "NUMER PÓŁKI" (ISBN: "NUMER ISBN")
 #
-# PRZYKŁAD:
+# Słownik books przechowuje pary (klucz : wartość) - "ISBN" : 3 ELEMENTOWA KROTKA ("tytuł książki", "imię głównego autora", "numer półki")
+#
+# PRZYKŁAD (jedna linijka oczekiwanego wyjścia):
 # Introduction to Algorithms by Thomas H. Cormen is on shelf 34 (ISBN: 0262032937)
 
 books = {'0262510871' : ('Structure and Interpretation of Computer Programs', 'Harold Abelson', 1),

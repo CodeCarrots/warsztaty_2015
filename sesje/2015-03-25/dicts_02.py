@@ -1,8 +1,8 @@
 # Połącz dwa słowniki title_to_author i title_to_shelf_number w jeden, przechowywany w zmiennej title_to_book_record
-# Słownik title_to_author przechowuje pary: "tytuł książki" : "imię głównego authora"
-# Słownik title_to_shelf_number przechowuje part: "tytuł książki" : "numer półki"
+# Słownik title_to_author przechowuje pary (klucz : wartość) - "tytuł książki" : "imię głównego authora"
+# Słownik title_to_shelf_number przechowuje pary (klucz : wartość) - "tytuł książki" : "numer półki"
 #
-# Wynikowy słownik title_to_book_record powinien przechowywać pary: "tytuł książki" : 2 ELEMENTOWA KROTKA ("imię głównego autora", "numer półki")
+# Wynikowy słownik title_to_book_record powinien przechowywać pary (klucz : wartość) - "tytuł książki" : 2 ELEMENTOWA KROTKA ("imię głównego autora", "numer półki")
 #
 # PRZYKŁAD:
 # Dla klucza 'The C Programming Language' słownik 'title_to_book_record' powinien zwrócić krotkę: ('Brian W. Kernighan', 23)

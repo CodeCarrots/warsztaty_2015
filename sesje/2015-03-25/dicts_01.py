@@ -1,5 +1,8 @@
 # Wypisz na ekran zawartość słownika w formie:
 # klucz --> wartość
+#
+# PRZYKŁAD (jedna linijka oczekiwanego wyjścia):
+# 'Introduction to Algorithms' --> 'Thomas H. Cormen'
 
 title_to_author = {'Structure and Interpretation of Computer Programs' : 'Harold Abelson',
                    'Introduction to Algorithms' : 'Thomas H. Cormen',

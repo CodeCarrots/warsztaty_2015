@@ -1,4 +1,8 @@
 # Uzupełnij ciało funkcji find_by_isbn_part tak, aby zwracała tytuły książek zawierające podany fragment numeru ISBN
+#
+# Słownik books przechowuje pary (klucz : wartość) - "ISBN" : 3 ELEMENTOWA KROTKA ("tytuł książki", "imię głównego autora", "numer półki")
+#
+# Uruchomienie tego skryptu spowoduje wywołanie funkcji testującej, która sprawdzi czy funkcja dobrze działa i wypisze raport na konsolę.
 
 books = {'0262510871' : ('Structure and Interpretation of Computer Programs', 'Harold Abelson', 1),
          '0262032937' : ('Introduction to Algorithms', 'Thomas H. Cormen', 34),
