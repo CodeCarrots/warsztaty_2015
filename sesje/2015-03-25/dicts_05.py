@@ -1,5 +1,6 @@
 # 1) Uzupełnij funkcję remove_book
 # 2) Dodaj funkcję wyszukiwania po ISBN (patrz poprzednie zadanie)
+# 3) Dodaj funkcję edytowania istniejącego rekordu (edit_book)
 #
 # Słownik books przechowuje pary (klucz : wartość) - "ISBN" : 3 ELEMENTOWA KROTKA ("tytuł książki", "imię głównego autora", "numer półki")
 #
