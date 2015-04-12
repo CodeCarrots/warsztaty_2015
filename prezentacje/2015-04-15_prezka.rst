@@ -1,0 +1,164 @@
+:title: Code Carrots Warszawa - warsztaty
+:data-transition-duration: 500
+:data-perspective: 0
+:css: common_static/prezka_common.css
+
+Prezentacja do warsztatów Code Carrots Warszawa na spotkanie 2015-04-01.
+
+Materiały multimedialne są umieszczone w opcjonalnym katalogu ``*_mmedia``.
+
+----
+
+`Obiekty i klasy`_
+==================
+
+.. class:: para-footnote
+
+    *1. kwietnia 2015 (środa)*
+
+.. class:: footnote small
+
+    (made with `hovercraft`_)
+
+----
+
+#. Co już wiemy?
+#. Jak z tego korzystamy?
+#. Klasa vs instancja
+#. Atrybuty i metody
+#. Własne klasy - po co? jak?
+#. Dziedziczenie
+
+----
+
+Wszystko jest obiektem
+======================
+
+w Pythonie
+----------
+
+.. code:: python
+
+    x = 1
+    type(x)
+
+    y = {}
+    type(y)
+
+    def foo():
+        pass
+    type(foo)
+
+----
+
+Każdy typ obiektu
+=================
+
+ma swoje zastosowanie
+---------------------
+
+* ``int`` czy ``float`` przechowują wartości proste liczbowe (jest też typ ``complex`` oraz cały moduł ``numbers``)
+* sekwencje i kolekcje jak ``list`` czy ``dict`` pomagają gromadzić dane a *iteratory* (jak np. ``range``) - je generować
+* funkcje służą do dzielenia kodu na... funkcjonalne części
+
+----
+
+`trzykropek`_ też jest obiektem :P
+==================================
+
+----
+
+`Bogactwo!`_
+============
+
+----
+
+Klasa vs instancja
+==================
+
+`Klasa`_ |rwarr| *szablon / forma*
+
+`Instancja`_ |rwarr| *coś utworzonego* (na bazie klasy)
+
+----
+
+Atrybuty i metody
+=================
+
+**Atrybut** |rwarr| *parametr / własność* (ang. attributes / properties / fields / data members)
+
+**Metoda** |rwarr| *funkcja\* operująca na klasie lub/i jej instancji*
+
+----
+
+Własne klasy - po co?
+=====================
+
+* `uproszczenie`_ (~ *izolacja*)
+* `standaryzacja`_ (~ *interfejsy*)
+* `przenaszalność`_ (no zgadnijcie ;)
+
+----
+
+Własne klasy - jak?
+=====================
+
+.. code:: python
+
+    # definicja klasy
+    class MojaKlasa:
+        pass
+
+    # instancja obiektu w/w klasy
+    mk = MojaKlasa()
+
+----
+
+Dziedziczenie
+=============
+
+.. code:: python
+
+    # definicja klasy bazowej
+    class MojaKlasa:
+        pass
+
+    # definicja klasy pochodnej (potomnej)
+    class MojszaKlasa(MojaKlasa):
+        pass
+
+    # instancja obiektu klasy pochodnej
+    mk = MojaKlasa()
+
+----
+
+Pytania?
+========
+
+.. This is a comment
+..
+   _so: is this!
+..
+   [and] this!
+..
+   this:: too!
+..
+   |even| this:: !
+
+----
+
+Zadania!
+========
+
+.. _`Obiekty i klasy`: https://docs.python.org/3/tutorial/classes.html
+.. _`hovercraft`: https://github.com/regebro/hovercraft/
+.. _`Klasa`: https://pl.wikipedia.org/wiki/Klasa_%28programowanie_obiektowe%29
+.. _`Instancja`: https://pl.wikipedia.org/wiki/Klasa_%28programowanie_obiektowe%29#Instancjonowanie
+.. _`metoda`: https://pl.wikipedia.org/wiki/Metoda_%28programowanie_obiektowe%29
+.. _`trzykropek`: http://stackoverflow.com/questions/118370/how-do-you-use-the-ellipsis-slicing-syntax-in-python
+.. _`Bogactwo!`: https://docs.python.org/3/library/stdtypes.html
+.. _`uproszczenie`: http://www.cs.cornell.edu/Courses/cs412/2000sp/hw/iota-pentium.html
+.. _`standaryzacja`: https://www.python.org/dev/peps/pep-0249/
+.. _`przenaszalność`: https://docs.python.org/3/library/
+
+.. |rwarr| unicode:: U+021E8 .. RIGHTWARDS WHITE ARROW
