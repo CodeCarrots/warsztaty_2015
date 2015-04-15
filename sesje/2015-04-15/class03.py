@@ -6,7 +6,10 @@ class Liczba(int):
 class LiczbaMagiczna(Liczba):
 
     def negacja(self):
-        return -self.numerator
+        return -self
+
+#    def zaneguj(self):
+#        self.numerator *= -1
 
 liczba_a = Liczba(11)
 liczba_b = Liczba(22)
