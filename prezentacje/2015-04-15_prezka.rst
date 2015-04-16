@@ -14,7 +14,7 @@ Materiały multimedialne są umieszczone w opcjonalnym katalogu ``*_mmedia``.
 
 .. class:: para-footnote
 
-    *1. kwietnia 2015 (środa)*
+    *15. kwietnia 2015 (środa)*
 
 .. class:: footnote small
 
@@ -128,7 +128,7 @@ Dziedziczenie
         pass
 
     # instancja obiektu klasy pochodnej
-    mk = MojaKlasa()
+    mk = MojszaKlasa()
 
 ----
 
