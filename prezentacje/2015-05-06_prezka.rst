@@ -1,0 +1,81 @@
+:title: Code Carrots Warszawa - warsztaty
+:data-transition-duration: 500
+:data-perspective: 0
+:css: common_static/prezka_common.css
+
+Prezentacja do warsztatów Code Carrots Warszawa na spotkanie 2015-05-06.
+
+Materiały multimedialne są umieszczone w opcjonalnym katalogu ``*_mmedia``.
+
+----
+
+Version Control Systems (VCS)
+=============================
+
+W szczególności **Git**.
+
+A. VCSy - czym są?
+B. VCSy - po co są?
+C. Git
+D. Hands on - Git lokalnie
+E. Hands on - Git zdalnie
+F. Github - co to? po co?
+G. Hands on - Github
+
+
+.. class:: para-footnote
+
+    *6 Maja 2015 (środa)*
+
+.. class:: footnote small
+
+    (made with `hovercraft`_)
+
+----
+
+VCSy - czym są?
+===============
+
+Prosta (prostacka) odpowiedź:
+
+Przechowują **wszystie** wersje kodu od początku projektu do aktualnego momentu.
+
+----
+
+VCSy - po co są?
+================
+
+Umożliwiają:
+
+- Powrót do dowolnej wersji kodu
+- Utrzymywanie i rozwijanie wielu wersji projektu w tym samym czasie
+- Podglądanie różnic pomiedzy różnymi wersjami kodu
+- Przeglądanie historii zmian
+- Eksperymentowanie z nowymi funkcjami bez ingerowania w produkcyjny kod
+- ...
+
+
+`It's like having a giant "undo" button all the way back to your first line of code.`
+gbc@stackoverflow
+
+----
+
+Git
+===
+
+Najbardziej popularna implementacja systemu kontroli wersji
+
+(najnowsza?)
+
+----
+
+Git - demo
+==========
+
+----
+
+Pytania?
+========
+
+
+.. _`hovercraft`: https://github.com/regebro/hovercraft/
