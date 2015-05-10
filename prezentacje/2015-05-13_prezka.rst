@@ -1,0 +1,156 @@
+:title: Code Carrots Warszawa - warsztaty
+:data-transition-duration: 500
+:data-perspective: 0
+:css: common_static/prezka_common.css
+
+Prezentacja do warsztatów Code Carrots Warszawa na spotkanie 2015-04-01.
+
+Materiały multimedialne są umieszczone w opcjonalnym katalogu ``*_mmedia``.
+
+----
+
+`virtualenv i pip`_
+======================
+
+.. class:: para-footnote
+
+    *13. maja 2015 (środa)*
+
+.. class:: footnote small
+
+    (made with `hovercraft`_)
+
+----
+
+`Wirtualizacja`_
+================
+
+#. Co to?
+#. Po co to?
+
+----
+
+Wirtualizacja na potrzeby Pythona
+=================================
+
+#. Jaka?
+#. Czym jest `PyPA`_?
+
+----
+
+Wirtualizacja na potrzeby Pythona
+=================================
+
+Ad. 1
+*Virtualenv creates isolated environments for Python, where you can install and upgrade libraries isolated from the system libraries and other environments on the system.*
+
+Ad. 2
+*The Python Packaging Authority is a working group that maintains many of the relevant projects in Python packaging.*
+
+----
+
+`virtualenv`_
+=============
+
+`Tworzenie środowiska`_:
+
+.. code:: bash
+
+    # UWAGA na ścieżki! (ustaw swoje!)
+    python -m venv Desktop/my_new_blue_venv
+    # "python" <-- python.exe z C:\Python34 (win)
+    # albo po prostu python3 (linux/mac)
+    # "-m venv" <-- "uruchom wbudowany moduł venv"
+    # "Desktop/my_new_blue_venv" <-- nazwa (lokalizacja) katalogu do utworzenia
+
+----
+
+`virtualenv`_
+=============
+
+`Aktywacja środowiska`_:
+
+.. code:: bash
+
+    # UWAGA na ścieżki! (ustaw swoje!)
+    # (win)
+    Desktop\my_new_blue_venv\Scripts\activate.bat
+    # (linux/mac)
+    Desktop/my_new_blue_venv/bin/activate
+    # zwróć uwagę na tzw. prompt!
+
+----
+
+Let's get back to... git :)
+===========================
+
+`blue`_, branche ``master`` oraz ``testing``
+
+.. code:: bash
+
+    git clone (...)
+    git remote (...)
+    git checkout (...)
+    git diff (...)
+
+Opcjonalna `aktualizacja własnego repo`_:
+
+.. code:: bash
+
+    git remote add (...)
+    git fetch (...)
+    git merge (...)
+
+----
+
+`pip`_ i `PyPI`_
+================
+
+* `pip`_
+* `PyPI`_
+* `indeks PyPI`_
+
+----
+
+`pip`_ - użycie
+===============
+
+.. code:: bash
+
+    pip install PakIEt
+    pip install -r plik_z_LiSTą_PakIEtów
+    # (...)
+    pip freeze
+
+----
+
+Testy
+=====
+
+.. code:: bash
+
+    python -m venvs.api.test_venv
+    python -m venvs.service.test_venv
+
+na obu branchach.
+
+----
+
+Ojej! Nie działa :(
+===================
+
+Nie wierz na słowo! Sprawdzaj! (=testuj)
+
+.. _`virtualenv i pip`: https://packaging.python.org/en/latest/current.html
+.. _`hovercraft`: https://github.com/regebro/hovercraft/
+.. _`Wirtualizacja`: https://pl.wikipedia.org/wiki/Wirtualizacja
+.. _`Tworzenie środowiska`: http://django.carrots.pl/install.html
+.. _`Aktywacja środowiska`: http://django.carrots.pl/install.html
+.. _`virtualenv`: https://virtualenv.pypa.io/en/latest/
+.. _`pip`: https://pip.pypa.io/en/latest/
+.. _`PyPA`: https://www.pypa.io/
+.. _`PyPI`: https://pypi.python.org/
+.. _`indeks PyPI`: https://pypi.python.org/simple/
+.. _`blue`: https://github.com/CodeCarrots/blue
+.. _`aktualizacja własnego repo`: http://stackoverflow.com/questions/11875723/how-to-update-a-forked-git-repo
+
