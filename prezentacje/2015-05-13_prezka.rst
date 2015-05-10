@@ -3,7 +3,7 @@
 :data-perspective: 0
 :css: common_static/prezka_common.css
 
-Prezentacja do warsztatów Code Carrots Warszawa na spotkanie 2015-04-01.
+Prezentacja do warsztatów Code Carrots Warszawa na spotkanie 2015-05-13.
 
 Materiały multimedialne są umieszczone w opcjonalnym katalogu ``*_mmedia``.
 
