@@ -5,18 +5,23 @@
 <span class="c"># "python" &lt;-- python.exe z C:\Python34 (win)
 # albo po prostu python3 (linux/mac)
 # "-m venv" &lt;-- "uruchom wbudowany modu&#x142;&#xA0;venv"
-# "Desktop/my_new_blue_venv" &lt;-- nazwa (lokalizacja) katalogu do utworzenia</span></pre></div><div class="step" step="5" data-x="8000" data-y="0"><h1 id="id2"><a href="https://virtualenv.pypa.io/en/latest/">virtualenv</a></h1><p><a href="http://django.carrots.pl/install.html">Aktywacja &#x15B;rodowiska</a>:</p><pre class="highlight code bash"><span class="c"># UWAGA na &#x15B;cie&#x17C;ki! (ustaw swoje!)
+# "Desktop/my_new_blue_venv" &lt;-- nazwa (lokalizacja) katalogu do utworzenia
+# ALBO:
+</span>virtualenv --python<span class="o">=</span>python3 Desktop/my_new_blue_venv</pre></div><div class="step" step="5" data-x="8000" data-y="0"><h1 id="id2"><a href="https://virtualenv.pypa.io/en/latest/">virtualenv</a></h1><p><a href="http://django.carrots.pl/install.html">Aktywacja &#x15B;rodowiska</a>:</p><pre class="highlight code bash"><span class="c"># UWAGA na &#x15B;cie&#x17C;ki! (ustaw swoje!)
 # (win)
 </span>Desktop<span class="se">\m</span>y_new_blue_venv<span class="se">\S</span>cripts<span class="se">\a</span>ctivate.bat
 <span class="c"># (linux/mac)
-</span>Desktop/my_new_blue_venv/bin/activate
+</span><span class="nb">source </span>Desktop/my_new_blue_venv/bin/activate
 <span class="c"># zwr&#xF3;&#x107; uwag&#x119; na tzw. prompt!</span></pre></div><div class="step" step="6" data-x="9600" data-y="0"><h1 id="let-s-get-back-to-git">Let's get back to... git :)</h1><p><a href="https://github.com/CodeCarrots/blue">blue</a>, branche <tt>master</tt> oraz <tt>testing</tt></p><pre class="highlight code bash">git clone <span class="o">(</span>...<span class="o">)</span>
 git remote <span class="o">(</span>...<span class="o">)</span>
 git checkout <span class="o">(</span>...<span class="o">)</span>
 git diff <span class="o">(</span>...<span class="o">)</span></pre><p>Opcjonalna <a href="http://stackoverflow.com/questions/11875723/how-to-update-a-forked-git-repo">aktualizacja w&#x142;asnego repo</a>:</p><pre class="highlight code bash">git remote add <span class="o">(</span>...<span class="o">)</span>
 git fetch <span class="o">(</span>...<span class="o">)</span>
 git merge <span class="o">(</span>...<span class="o">)</span></pre></div><div class="step" step="7" data-x="11200" data-y="0"><h1 id="pip-i-pypi"><a href="https://pip.pypa.io/en/latest/">pip</a> i <a href="https://pypi.python.org/">PyPI</a></h1><ul><li><a href="https://pip.pypa.io/en/latest/">pip</a></li><li><a href="https://pypi.python.org/">PyPI</a></li><li><a href="https://pypi.python.org/simple/">indeks PyPI</a></li></ul></div><div class="step" step="8" data-x="12800" data-y="0"><h1 id="pip-uzycie"><a href="https://pip.pypa.io/en/latest/">pip</a> - u&#x17C;ycie</h1><pre class="highlight code bash">pip install PakIEt
-pip install -r plik_z_LiST&#x105;_PakIEt&#xF3;w
+<span class="c"># aktualizacja: pip install -U PakIEt
+</span>pip install -r plik_z_LiST&#x105;_PakIEt&#xF3;w
 <span class="c"># (...)
-</span>pip freeze</pre></div><div class="step" step="9" data-x="14400" data-y="0"><h1 id="testy">Testy</h1><pre class="highlight code bash">python -m venvs.api.test_venv
+</span>pip freeze
+<span class="c"># (...)
+</span>pip uninstall</pre></div><div class="step" step="9" data-x="14400" data-y="0"><h1 id="testy">Testy</h1><pre class="highlight code bash">python -m venvs.api.test_venv
 python -m venvs.service.test_venv</pre><p>na obu branchach.</p></div><div class="step" step="10" data-x="16000" data-y="0"><h1 id="ojej-nie-dziala">Ojej! Nie dzia&#x142;a :(</h1><p>Nie wierz na s&#x142;owo! Sprawdzaj! (=testuj)</p></div></div><div id="hovercraft-help" class="hide"><table><tr><th>Left, Down, Page Down, Space</th><td>Next slide</td></tr><tr><th>Right, Up, Page Up</th><td>Previous slide</td></tr><tr><th>H</th><td>Toggle this help</td></tr></table></div><script type="text/javascript" src="common_static/impress.js"></script><script type="text/javascript" src="common_static/impressConsole.js"></script><script type="text/javascript" src="common_static/hovercraft.js"></script></body></html>

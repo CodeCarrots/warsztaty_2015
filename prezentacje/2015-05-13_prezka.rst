@@ -62,6 +62,8 @@ Ad. 2
     # albo po prostu python3 (linux/mac)
     # "-m venv" <-- "uruchom wbudowany moduł venv"
     # "Desktop/my_new_blue_venv" <-- nazwa (lokalizacja) katalogu do utworzenia
+    # ALBO:
+    virtualenv --python=python3 Desktop/my_new_blue_venv
 
 ----
 
@@ -76,7 +78,7 @@ Ad. 2
     # (win)
     Desktop\my_new_blue_venv\Scripts\activate.bat
     # (linux/mac)
-    Desktop/my_new_blue_venv/bin/activate
+    source Desktop/my_new_blue_venv/bin/activate
     # zwróć uwagę na tzw. prompt!
 
 ----
@@ -118,9 +120,12 @@ Opcjonalna `aktualizacja własnego repo`_:
 .. code:: bash
 
     pip install PakIEt
+    # aktualizacja: pip install -U PakIEt
     pip install -r plik_z_LiSTą_PakIEtów
     # (...)
     pip freeze
+    # (...)
+    pip uninstall
 
 ----
 
