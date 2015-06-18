@@ -31,7 +31,7 @@ Plan pracy
     # ani plików *.pyc czy katalogów __pycache__
     git ci -m "pusty projekt"
 
-#. Przeglądamy w Sieci `djangowe pluginy do rejestracji<https://www.djangopackages.com/search/?q=registration>`_
+#. Przeglądamy w Sieci `djangowe pluginy do rejestracji <https://www.djangopackages.com/search/?q=registration>`_
 
 #. Wybraliśmy `django-registration-redux <https://pypi.python.org/pypi/django-registration-redux/>`_ - jest rozwijany oraz utrzymywany a wg `dokumentacji <https://django-registration-redux.readthedocs.org/>`_ spełnia nasz use-case.
 
